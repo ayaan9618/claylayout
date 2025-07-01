@@ -1,7 +1,7 @@
 // Must be defined in one file, _before_ #include "clay.h"
 #define CLAY_IMPLEMENTATION
 
-#include <unistd.h>
+#include <windows.h>
 #include "../../clay.h"
 #include "../../renderers/terminal/clay_renderer_terminal_ansi.c"
 #include "../shared-layouts/clay-video-demo.c"
@@ -34,6 +34,6 @@ int main() {
         Clay_Terminal_Render(renderCommands, width, height, columnWidth);
 
         fflush(stdout);
-        sleep(1);
+        Sleep(1000);
     }
 }

@@ -1,3 +1,4 @@
 {
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "cmake.sourceDirectory": "C:/Users/iyand/OneDrive/Documents/code/claylayout/clay-0.14/examples/terminal-example"
 }

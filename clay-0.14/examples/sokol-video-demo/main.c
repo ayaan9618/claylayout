@@ -1,7 +1,7 @@
-#include "sokol_app.h"
-#include "sokol_gfx.h"
-#include "sokol_glue.h"
-#include "sokol_log.h"
+#include "util/sokol_app.h"
+#include "util/sokol_gfx.h"
+#include "util/sokol_glue.h"
+#include "util/sokol_log.h"
 
 #define CLAY_IMPLEMENTATION
 #include "../../clay.h"
